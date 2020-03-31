@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script>
+      $(document).ready(function() {
+        $('.accordion_header').click(function() {
+          $('.accordion_header').removeClass('active');
+          $(this).addClass('active');
+        });
+      });
+    </script>
+
+    <!--FONT AWESOME-->
+    <script src="https://use.fontawesome.com/1437c2a04d.js"></script>
+    <!-- CSS y fuentes -->
+    <link rel="stylesheet" href="css/generales.css" />
+    <link rel="stylesheet" href="css/quien_somos.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Quantico&display=swap"
+      rel="stylesheet"
+    />
+    <title>TheSimpleSupply</title>
+  </head>
+
+  <body>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
+
+    <!--MENU-->
+    <div class="container-fluid">
+      <div class="row">
+        <nav class="navbar col-4 col-lg-2">
+          <div class="row col-12">
+            <li class="nav-item dropdown">
+              <a
+                id="menu"
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdownMenuLink"
+                role="button"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                MENÚ
+              </a>
+              <div
+                class="dropdown-menu"
+                aria-labelledby="navbarDropdownMenuLink"
+              >
+                <a class="dropdown-item" href="contactos.html">CONTACTOS</a>
+                <a class="dropdown-item" href="index.html" id="menufotos"
+                  ><img
+                    src="imagenes/logo-letra.png"
+                    alt="logo_letra"
+                    title="logo-foto"
+                    id="logo"
+                /></a>
+
+                <a class="dropdown-item" href="quien_somos.html">QUIEN SOMOS</a>
+                <a class="dropdown-item" href="index.html" id="menufotos"
+                  ><img
+                    src="imagenes/logo2.png"
+                    alt="logo_letra"
+                    title="logo-letra"
+                    id="logoletra"
+                /></a>
+
+                <a class="dropdown-item" href="#"
+                  >TWITTER <i class="fa fa-twitter" aria-hidden="true"></i
+                ></a>
+                <a class="dropdown-item" href="#"
+                  >FACEBOOK <i class="fa fa-facebook" aria-hidden="true"></i
+                ></a>
+                <a class="dropdown-item" href="#"
+                  >INSTAGRAM <i class="fa fa-instagram" aria-hidden="true"></i
+                ></a>
+                <a class="dropdown-item" href="#"
+                  >LINKEDIN <i class="fa fa-linkedin" aria-hidden="true"></i
+                ></a>
+              </div>
+            </li>
+          </div>
+        </nav>
+        <!--MAIN-->
+
+        <main class="col-8 col-lg-10">
+          <div class="row" id="principal">
+            <article class="col-12 col-lg-6 align-self-center" id="descripcion">
+              <div class="wrapper">
+                <div class="accordion_wrap accordion_1">
+                  <div class="accordion_header">
+                    Quien somos
+                  </div>
+                  <div class="accordion_body">
+                    <p>
+                      En ©TheSimpleSupply creemos que en la simplicidad está la
+                      clave, pero sin descuidar nuestro estilo. La forma o como
+                      queda es muy importante para nosotros. Nuestra tienda es
+                      para aquellos que buscan una calidad de fabricación
+                      excelente, además de unos buenos precios. Nosotros nos
+                      encargamos de facilitarte una selección de artículos al
+                      mejor precio posible para que puedas sentirte bien en tu
+                      día a día.
+                    </p>
+                  </div>
+                </div>
+                <div class="accordion_wrap accordion_2">
+                  <div class="accordion_header">
+                    Aspiraciones
+                  </div>
+                  <div class="accordion_body">
+                    <p>
+                      Aspiramos a crecer lo sufiente como para poder algún día
+                      costearnos un servicio online para que puedan hacer sus
+                      compras desde esta misma página web.
+                    </p>
+                  </div>
+                </div>
+                <div class="accordion_wrap accordion_3">
+                  <div class="accordion_header">
+                    Donde encontrarnos
+                  </div>
+                  <div class="accordion_body">
+                    <p>
+                      Puede encontrarnos en nuestra tienda física o en una de
+                      las redes sociales del menú. Estamos disponibles para
+                      ayudarte en todo momento, no dudes en contactar con
+                      nosotros!
+                    </p>
+                  </div>
+                </div>
+                <div class="accordion_wrap accordion_4">
+                  <div class="accordion_header">
+                    Historia
+                  </div>
+                  <div class="accordion_body">
+                    <p>
+                      Empezamos nuestra empresa en 2019 gracias a nuestra pasión
+                      por la ropa. Queríamos compartir un estilo cada vez más
+                      utilizado y hacerlo más accesible al público general.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </article>
+            <article class="col-12 col-lg-6 align-self-center">
+              <!--IMAGEN-->
+              <img src="imagenes/logo-letra.png" alt="logo-letra" />
+            </article>
+          </div>
+        </main>
+      </div>
+    </div>
+  </body>
+</html>

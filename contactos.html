@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+  <!--FONT AWESOME-->
+  <script src="https://use.fontawesome.com/1437c2a04d.js"></script>
+  <!-- CSS y fuentes -->
+  <link rel="stylesheet" href="css/generales.css">
+  <link rel="stylesheet" href="css/contactos.css">
+  <link href="https://fonts.googleapis.com/css?family=Quantico&display=swap" rel="stylesheet">
+  <title>TheSimpleSupply</title>
+</head>
+
+<body>
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"></script>
+
+  <!--MENU-->
+  <div class="container-fluid">
+    <div class="row">
+      <nav class="navbar col-4 col-lg-2">
+        <div class="row col-12">
+          <li class="nav-item dropdown">
+            <a id="menu" class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+              data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              MENÚ
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="contactos.html">CONTACTOS</a>
+              <a class="dropdown-item" href="index.html" id="menufotos"><img src="imagenes/logo-letra.png"
+                  alt="logo_letra" title="logo-foto" id="logo"></a>
+              <a class="dropdown-item" href="quien_somos.html">QUIEN SOMOS</a>
+              <a class="dropdown-item" href="index.html" id="menufotos"><img src="imagenes/logo2.png" alt="logo_letra"
+                  title="logo-letra" id="logoletra"></a>
+              <a class="dropdown-item" href="#">TWITTER <i class="fa fa-twitter" aria-hidden="true"></i></a>
+              <a class="dropdown-item" href="#">FACEBOOK <i class="fa fa-facebook" aria-hidden="true"></i></a>
+              <a class="dropdown-item" href="#">INSTAGRAM <i class="fa fa-instagram" aria-hidden="true"></i></a>
+              <a class="dropdown-item" href="#">LINKEDIN <i class="fa fa-linkedin" aria-hidden="true"></i></a>
+            </div>
+          </li>
+        </div>
+
+      </nav>
+      <!--MAIN-->
+      <main class="col-8 col-lg-10"> 
+        <div class="row" id="principal">
+          <article class="col-12 col-lg-6"> <!--CONTACTOS REDES Y CORREO-->
+            <h4 id="donde">DÓNDE ENCONTRARNOS</h4>
+            <h2>Redes sociales y correo</h2>
+            <a href="#">
+              <h4>TWITTER <i class="fa fa-twitter" aria-hidden="true"></i></h4>
+            </a>
+            <a href="#">
+              <h4>FACEBOOK <i class="fa fa-facebook" aria-hidden="true"></i></h4>
+            </a>
+            <a href="#">
+              <h4>INSTAGRAM <i class="fa fa-instagram" aria-hidden="true"></i></h4>
+            </a>
+            <a href="#">
+              <h4>LINKEDIN <i class="fa fa-linkedin" aria-hidden="true"></i></h4>
+            </a>
+            <h4>CORREO:</h4>
+            <h5>thesimplesupply@gmail.com</h5>
+          </article>
+          <article class="col-12 col-lg-6"> <!--IFRAME CON MAPA-->
+            <h2 id="nuestratienda">NUESTRA TIENDA</h2> 
+            <div id="map-container">
+              <iframe src="https://maps.google.com/maps?q=manhatan&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0"
+                style="border:0" allowfullscreen></iframe>
+            </div>
+          </article>
+        </div>
+        <div class="row">
+          <article class="col-12 col-lg-6"> <!--CONTACTO-->
+
+            <form class="text-center border border-light p-5" action="#!">
+
+              <p class="h4 mb-4">Contacte con nosotros</p>
+
+
+              <input type="text" id="defaultContactFormName" class="form-control mb-4" placeholder="Nombre">
+
+
+              <input type="email" id="defaultContactFormEmail" class="form-control mb-4" placeholder="E-mail">
+
+
+              <label>Cuestión</label> <!--DESPLEGABLE-->
+              <select class="browser-default custom-select mb-4">
+                <option value="" disabled>Elige una opción</option>
+                <option value="1" selected>Feedback</option>
+                <option value="2">Reportar un problema</option>
+                <option value="3">Recomendaciones</option>
+                <option value="4">Otros</option>
+              </select>
+
+
+              <div class="form-group"> <!--MENSAJE-->
+                <textarea class="form-control rounded-0" id="exampleFormControlTextarea2" rows="3"
+                  placeholder="Mensaje"></textarea>
+              </div>
+
+
+              <div class="custom-control custom-checkbox mb-4"> <!--CHECKBOX-->
+                <input type="checkbox" class="custom-control-input" id="defaultContactFormCopy">
+                <label class="custom-control-label" for="defaultContactFormCopy">Mandar copia del mensaje</label>
+              </div>
+
+
+              <button class="btn btn-info btn-block" type="submit">Enviar</button> <!--BOTON-->
+
+            </form>
+
+          </article>
+          <article class="col-12 col-lg-6"> <!--BOLETÍN-->
+
+            <form class="text-center border border-light p-5" action="#!">
+
+              <p class="h4 mb-4">Subcribirse</p>
+
+              <p>Subscribete a nuestro boletín para seguir nuestros artículos</p>
+
+              <p>
+                <a href="" target="_blank">Ver la última noticia</a>
+              </p>
+              <!--SECCIONES-->
+              <input type="text" class="form-control mb-4" placeholder="Nombre">
+
+              <input type="email" class="form-control mb-4" placeholder="E-mail">
+
+              <input type="text" class="form-control mb-4" placeholder="Apellidos">
+
+              <input type="text" class="form-control mb-4" placeholder="Dirección">
+
+              <input type="number" class="form-control mb-4" placeholder="Teléfono">
+
+
+              <button class="btn btn-info btn-block" type="submit">Enviar</button> <!--BOTON-->
+
+
+            </form>
+
+
+          </article>
+        </div>
+
+
+      </main>
+    </div>
+  </div>
+
+</body>
+
+</html>

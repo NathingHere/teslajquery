@@ -1,0 +1,17 @@
+#map-container>iframe {
+    width: 80%;
+    height: 235px;
+}
+
+#nuestratienda {
+    margin-bottom: 10%;
+}
+
+#donde {
+    margin-bottom: 10%;
+}
+
+#news {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}

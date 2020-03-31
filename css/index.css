@@ -1,0 +1,16 @@
+/*MAIN*/
+#fotos_principales {
+    width: 80%;
+}
+
+#fotos_principales:hover {
+    filter: brightness(1.1);
+}
+
+h3 {
+    font-size: 1.5em;
+}
+
+
+
+

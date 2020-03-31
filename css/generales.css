@@ -1,0 +1,80 @@
+/*GENERALES*/
+body {
+    font-family: 'Quantico', sans-serif;
+    color: rgb(65, 66, 69);
+}
+
+h4 {
+    color:rgb(152, 154, 158);
+}
+
+h2 {
+    font-weight: bold;
+}
+
+h1 {
+    color:rgb(152, 154, 158);
+}
+
+main {
+    margin-top: 4%;
+}
+
+#fotos_secundarias {
+    width: 80%;
+}
+
+#fotos_secundarias:hover {
+filter: brightness(1.1);
+}
+
+/*MENU*/
+
+a {
+    text-decoration: none;
+    margin-bottom: 10%;
+    color: rgb(65, 66, 69);
+}
+
+li {
+    list-style: none;
+}
+
+.dropdown-menu {
+    border: none;
+}
+
+.dropdown-item:active {
+    background-color: rgb(152, 154, 158);
+}
+
+#menufotos:active {
+    background-color: white;
+}
+
+.navbar {
+    display: block;
+}
+
+#menu {
+    color:rgb(152, 154, 158);
+    background-color: white;
+}
+
+#logo {
+    width: 100%;
+    margin-left: 5%;
+    margin-right: 45%;
+    margin-bottom: 5%;
+    margin-top: 5%;
+    max-width: 200px;
+}
+
+#logoletra {
+    width: 100%;
+    margin-left: 5%;
+    margin-right: 45%;
+    margin-bottom: 10%;
+}
+
+
